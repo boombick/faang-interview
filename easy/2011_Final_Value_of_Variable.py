@@ -7,7 +7,6 @@ class Solution(object):
         :rtype: int
         """
         result = 0
-        print range(len(operations))
         for exp in range(len(operations)):
             if operations[exp][1] == "+":
                 result = result + 1
